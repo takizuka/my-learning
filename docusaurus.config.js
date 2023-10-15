@@ -77,11 +77,11 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "作成物",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Terasolunaチュートリアル",
+                to: "https://github.com/takizuka/terasoluna-tutorial",
               },
             ],
           },
