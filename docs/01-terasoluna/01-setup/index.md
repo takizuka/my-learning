@@ -1,5 +1,5 @@
 ---
-id: 1-1-1-setup
+id: terasoluna-setup
 title: ツールのインストール
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: 1-1-3-idea
+id: terasoluna-idea
 title: IntelliJ IDEAの設定
 ---
 

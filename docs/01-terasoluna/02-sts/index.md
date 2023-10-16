@@ -1,5 +1,5 @@
 ---
-id: 1-1-2-sts
+id: terasoluna-sts
 title: Spring Tool Suite 4の設定
 ---
 
