@@ -19,7 +19,7 @@ title: Spring Tool Suite 4の設定
 
 `-vm` の次の行を、クライアント証明書を設定したJavaランタイムのパスに変更する。
 
-```text
+```text title=SpringTooleSuite4.ini {10} showLineNumbers
 -startup
 ../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.500.v20230717-2134.jar
 --launcher.library
