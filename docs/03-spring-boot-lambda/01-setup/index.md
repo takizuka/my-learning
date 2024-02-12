@@ -60,7 +60,7 @@ class ApiGatewayEventFunction : Function<Message<Input>, Message<String>> {
 
 ### ローカルでの動作確認
 
-`spring-boot-starter` モジュールと `spring-cloud-function-web` モジュールを追加すると、アプリがSpring Boot Webアプリケーションとして動作するようになり、関数が作成した関数がHTTPのエンドポイントとしてエクスポートされる。 
+`spring-boot-starter` モジュールと `spring-cloud-function-web` モジュールを追加すると、アプリがSpring Boot Webアプリケーションとして動作するようになり、関数が作成した関数がHTTPのエンドポイントとしてエクスポートされる。
 
 ```diff title=build.gradle.kts
 dependencies {
@@ -116,7 +116,7 @@ extra["springCloudVersion"] = "2023.0.0"
 + tasks.assemble {
 +     dependsOn("thinJar", "shadowJar")
 + }
-+ 
++
 + tasks.withType<ShadowJar> {
 +     mustRunAfter("thinJar")
 +     archiveClassifier = "aws"

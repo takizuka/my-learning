@@ -18,23 +18,25 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "2.4.3",
-    "@docusaurus/preset-classic": "2.4.3",
+    "@docusaurus/core": "3.0.0",
+    "@docusaurus/preset-classic": "3.0.0",
     "prism-react-renderer": "^2.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.4.3",
-    "@tsconfig/docusaurus": "^2.0.2",
+    "@docusaurus/module-type-aliases": "3.0.0",
+    "@docusaurus/types": "3.0.0",
+    "@docusaurus/tsconfig": "3.0.0",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",
+    "@types/react": "^18.2.29",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.33.2",
-    "husky": "^8.0.3",
+    "husky": "^9.0.10",
     "install": "^0.13.0",
-    "lint-staged": "^15.0.1",
+    "lint-staged": "^15.2.2",
     "npm": "^10.2.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
@@ -56,6 +58,6 @@
     "*.{js,jsx,ts,tsx}": "eslint --fix"
   },
   "engines": {
-    "node": ">=16.14"
+    "node": ">=18.0"
   }
 }
