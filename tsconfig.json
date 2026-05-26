@@ -1,10 +1,11 @@
 {
   // This file is not used in compilation. It is here just for a nice editor experience.
-  "extends": "@tsconfig/docusaurus/tsconfig.json",
+  "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
     "strict": true,
-    "baseUrl": ".",
     "moduleResolution": "NodeNext",
-    "forceConsistentCasingInFileNames": true
+    "module": "NodeNext",
+    "forceConsistentCasingInFileNames": true,
+    "ignoreDeprecations": "6.0",
   }
 }
